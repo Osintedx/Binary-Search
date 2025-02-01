@@ -20,6 +20,8 @@ This Rust project implements a command-line interface (CLI) for performing binar
 - Parsing different types of input.
 - Generating reports based on search results.
 - Measuring the time taken for searches.
+- Serializing and deserializing data.
+- Collecting and reporting metrics.
 
 ## Files
 
@@ -40,6 +42,9 @@ This Rust project implements a command-line interface (CLI) for performing binar
 - `parser.rs`: Parsing different types of input.
 - `reporter.rs`: Generating reports based on search results.
 - `timer.rs`: Measuring the time taken for searches.
+- `serializer.rs`: Serializing data to different formats.
+- `deserializer.rs`: Deserializing data from different formats.
+- `metrics.rs`: Collecting and reporting metrics.
 
 ## License
 
