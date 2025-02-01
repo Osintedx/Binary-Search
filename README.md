@@ -12,6 +12,14 @@ This Rust project implements a command-line interface (CLI) for performing binar
 - Configuration handling.
 - Custom error types.
 - Managing search history.
+- Command-line interface parsing.
+- Additional input validation functions.
+- Formatting output and results.
+- Defining constants used throughout the project.
+- Miscellaneous helper functions.
+- Parsing different types of input.
+- Generating reports based on search results.
+- Measuring the time taken for searches.
 
 ## Files
 
@@ -24,6 +32,14 @@ This Rust project implements a command-line interface (CLI) for performing binar
 - `search_history.rs`: Managing search history.
 - `logger.rs`: Handling logging functionality.
 - `result_saver.rs`: Saving search results.
+- `cli.rs`: Handling command-line interface parsing and arguments.
+- `validator.rs`: Additional input validation functions.
+- `formatter.rs`: Formatting output and results.
+- `constants.rs`: Defining constants used throughout the project.
+- `helpers.rs`: Miscellaneous helper functions.
+- `parser.rs`: Parsing different types of input.
+- `reporter.rs`: Generating reports based on search results.
+- `timer.rs`: Measuring the time taken for searches.
 
 ## License
 
