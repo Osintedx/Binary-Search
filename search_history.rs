@@ -17,16 +17,6 @@ impl SearchHistory {
             .append(true)
             .create(true)
             .open(&self.file_path)?;
-        writeln!(file, "{}", entry)?;
-        Ok(())
-    }
-
-    pub fn clear(&self) -> io::Result<()> {
-        let mut file = OpenOptions::new()
-            .write(true)
-            .truncate(true)
-            .open(&self.file_path)?;
-        file.set_len(0)?;
-        Ok(())
+        writeln!(file, "{}", entry)
     }
 }
